@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Alkatra', cursive;
+}
+
+body {
+    background-color:rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 2.5rem;
+    font-size: x-large;
+    margin: 0;
+}
+
+
+.header {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    max-width: 100%;
+}
+
+.Title {
+    display: block;
+    text-align: left;
+    padding-left: 16px;
+    justify-content: center;
+    font-size: 40px;
+    color: black;
+}
+
+@media screen and (max-width: 800px) {
+    .Title {
+        font-size: 20px;
+    }
+}
+
+.Mlogo {
+    display: block;
+    margin: auto;
+    width: 4%;
+    right: 15px;
+    margin-top: 15px;
+    position: absolute;
+    top: 0px;
+    min-width: 80px;
+}
+
+.flexbox {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: black;
+}
+
+@media screen and (max-width:800px) {
+    .flexbox {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+}
+
+
+.cont-box-1 {
+    width: 40%;
+}
+
+@media screen and (max-width:800px) {
+    .cont-box-1 {
+        width: 100%;
+        font-size: 20px;
+        width: 80%;
+    }
+}
+
+.Gallery {
+    background-color: black;
+    width: 100%;
+    max-width: 100%;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.kitchenStyle {
+    background-image: url(./images/Background\ images/kitchen.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.bathroomStyle {
+    background-image: url(./images/Background\ images/Bathroom.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.exteriorStyle {
+    background-image: url(./images/Background\ images/exterior.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.finishStyle {
+    background-image: url(./images/Background\ images/finishes.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.SHStyle {
+    background-image: url(./images/SHHouse/1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.AFrame {
+    background-image: url(./images/AFrame/AFrame.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.DeweyLn {
+    background-image: url(./images/DeweyLn/1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.portneuf {
+    background-image: url(./images/Portneuf/6.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.boxOverlay {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+
+
+.boxOverlay:hover {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    opacity: 1;
+    background: rgba(223, 223, 223, 0.6);
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    font-size: xxx-large;
+}
+
+
+.images {
+    width: 30%
+}
+@media screen and (max-width:800px) {
+    .imageBox {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    .images {
+        width: 60%
+    }
+}
+
+
+.footer {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.fbLogo {
+    height: 80px;
+    width: 120px;
+}
+
+.fbLogo:hover {
+    opacity: 0.9;
+}
+
+@media screen and (max-width: 800px) {
+    .footer {
+        font-size: 20px;
+    }
+
+    .boxOverlay:hover {
+        font-size: larger;
+    }
+}
