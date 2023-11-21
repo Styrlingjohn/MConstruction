@@ -7,8 +7,6 @@
 
 body {
     background-color:rgb(255, 255, 255);
-    background-repeat: no-repeat;
-    background-size: cover;
     text-align: center;
     padding-bottom: 2.5rem;
     font-size: x-large;
@@ -47,6 +45,14 @@ body {
     position: absolute;
     top: 0px;
     min-width: 80px;
+}
+
+.siteBackground{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url(./images/Background\ images/Logo.png);
+    background-size: contain;
+    
 }
 
 .flexbox {

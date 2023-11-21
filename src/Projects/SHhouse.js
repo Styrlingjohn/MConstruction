@@ -28,17 +28,21 @@ function SHHouse() {
   return (
     <>
       <section className='Gallery'>
-          Sornsen House
+        Sornsen House
       </section>
 
-      <br/>
+      <br />
 
       <section style={Style.Box} className='imageBox'>
 
-          <img src='./images/SornsenHouse/1.jpg' style={Style.Images} className='images'></img>
-          <img src='./images/SornsenHouse/2.jpg' style={Style.Images} className='images'></img>
-          <img src='./images/SornsenHouse/3.jpg' style={Style.Images} className='images'></img>
-
+        <img src='./images/SornsenHouse/3.jpg' style={Style.Images} className='images'></img>
+        <img src='./images/SornsenHouse/4.jpg' style={Style.Images} className='images'></img>
+        <img src='./images/SornsenHouse/5.jpg' style={Style.Images} className='images'></img>
+        <img src='./images/SornsenHouse/6.jpg' style={Style.Images} className='images'></img>
+        <img src='./images/SornsenHouse/11.jpg' style={Style.Images} className='images'></img>
+        <img src='./images/SornsenHouse/1.jpg' style={Style.Images} className='images'></img>
+        <img src='./images/SornsenHouse/2.jpg' style={Style.Images} className='images'></img>
+        
       </section>
 
     </>

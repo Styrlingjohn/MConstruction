@@ -33,7 +33,7 @@ function Homepage() {
 
 
     return (
-        <>
+        <div>
 
             <br />
 
@@ -110,7 +110,7 @@ function Homepage() {
             <div className="flexbox">
                 <section className='cont-box-1' style={Style.Container}>
                     <section style={Style.Box} className="SHStyle">
-                        <a href='/sornsenhouse'> <div className="boxOverlay">
+                        <a href='/sorensenhouse'> <div className="boxOverlay">
                             Sorensen House
                         </div></a>
                     </section>
@@ -142,7 +142,7 @@ function Homepage() {
 
             </div>
 
-        </>
+        </div>
     );
 };
 
