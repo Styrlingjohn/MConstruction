@@ -12,6 +12,7 @@ import SorensenHouse from "./Projects/SHhouse";
 import AFrame from "./Projects/AFrame";
 import DeweyLn from "./Projects/DeweyLn";
 import Portneuf from "./Projects/Portnuef";
+import EphLn from "./Projects/EphLn";
 
 
 
@@ -35,6 +36,7 @@ function App() {
                         <Route path="aframe" element={<AFrame />} />
                         <Route path="deweyLn" element={<DeweyLn />} />
                         <Route path="portneuf" element={<Portneuf />} />
+                        <Route path="ephLn" element={<EphLn />} />
 
                     </Routes>
                 </BrowserRouter>

@@ -144,6 +144,12 @@ a {
     background-size: cover;
 }
 
+.ephLn {
+    background-image: url(./images/EphLn/18.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 
 .boxOverlay {
     opacity: 0;
