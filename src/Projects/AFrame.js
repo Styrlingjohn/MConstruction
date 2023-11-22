@@ -20,6 +20,11 @@ const Style = {
         'paddingTop': '10px',
         'paddingBottom': '10px',
     },
+    button: {
+        position: 'absolute',
+        right: '40px',
+        transform: 'translateY(30%)'
+    }
 }
 
 
@@ -29,6 +34,7 @@ function AFrame() {
         <>
             <section className='Gallery'>
                 AFrame
+                <a href='/'><button style={Style.button} >Home</button></a>
             </section>
 
             <br />

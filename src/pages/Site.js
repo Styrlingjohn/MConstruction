@@ -25,7 +25,8 @@ function Homepage() {
             'flex-direction': 'row',
             height: '98%',
             width: '98%',
-        }
+        },
+
 
 
     }
@@ -49,7 +50,7 @@ function Homepage() {
             <br />
 
             <div>
-                <section className="Gallery">
+                <section id="Gallery" className="Gallery">
                     Gallery
                 </section>
             </div>
@@ -115,7 +116,7 @@ function Homepage() {
                         </div></a>
                     </section>
                 </section>
-       
+
                 <section className='cont-box-1' style={Style.Container}>
                     <section style={Style.Box} className="AFrame">
                         <a href='/aframe'> <div className="boxOverlay">
@@ -123,7 +124,7 @@ function Homepage() {
                         </div></a>
                     </section>
                 </section>
-       
+
                 <section className='cont-box-1' style={Style.Container}>
                     <section style={Style.Box} className="DeweyLn">
                         <a href='/deweyLn'> <div className="boxOverlay">

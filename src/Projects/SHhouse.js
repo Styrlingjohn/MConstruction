@@ -20,6 +20,11 @@ const Style = {
     'paddingTop': '10px',
     'paddingBottom': '10px',
   },
+  button: {
+    position: 'absolute',
+    right: '40px',
+    transform: 'translateY(30%)'
+}
 }
 
 
@@ -28,7 +33,8 @@ function SHHouse() {
   return (
     <>
       <section className='Gallery'>
-        Sornsen House
+        Sorensen House
+        <a href='/'><button style={Style.button} >Home</button></a>
       </section>
 
       <br />

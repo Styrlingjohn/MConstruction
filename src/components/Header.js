@@ -7,7 +7,7 @@ function Head() {
         <div className="site">
             <header className="header" >
                 <h1 className="Title" >Morris Construction LLC</h1>
-                <a href='/'> <img className='Mlogo' alt='Mlogo' src='/Logo.png'></img></a>
+                <img className='Mlogo' alt='Mlogo' src='/Logo.png'></img>
             </header>
         </div>
     );

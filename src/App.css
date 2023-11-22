@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color:rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     text-align: center;
     padding-bottom: 2.5rem;
     font-size: x-large;
@@ -47,12 +47,12 @@ body {
     min-width: 80px;
 }
 
-.siteBackground{
+.siteBackground {
     position: absolute;
     background-repeat: no-repeat;
     background-image: url(./images/Background\ images/Logo.png);
     background-size: contain;
-    
+
 }
 
 .flexbox {
@@ -93,6 +93,8 @@ body {
     width: 100%;
     max-width: 100%;
     color: white;
+    display: flex;
+    justify-content: center;
 }
 
 a {
@@ -123,21 +125,25 @@ a {
     background-position: center;
     background-size: cover;
 }
+
 .SHStyle {
-    background-image: url(./images/SHHouse/1.jpg);
+    background-image: url(./images/SHHouse/5.jpg);
     background-position: center;
     background-size: cover;
 }
+
 .AFrame {
     background-image: url(./images/AFrame/AFrame.jpg);
     background-position: center;
     background-size: cover;
 }
+
 .DeweyLn {
     background-image: url(./images/DeweyLn/1.jpg);
     background-position: center;
     background-size: cover;
 }
+
 .portneuf {
     background-image: url(./images/Portneuf/6.jpg);
     background-position: center;
@@ -177,12 +183,14 @@ a {
 .images {
     width: 30%
 }
+
 @media screen and (max-width:800px) {
     .imageBox {
         display: flex;
         width: 100%;
         flex-direction: column;
     }
+
     .images {
         width: 60%
     }
