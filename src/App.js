@@ -24,8 +24,10 @@ import HatchH from "./Projects/HatchHouse";
 function App() {
     return (
         <div>
-            <Head />
-
+            <section>
+                <Head />
+            </section>
+            <section >
                 <BrowserRouter>
                     <Routes>
                         <Route path='/' element={<Homepage />} />
@@ -42,8 +44,10 @@ function App() {
 
                     </Routes>
                 </BrowserRouter>
-
-            <Footer />
+            </section>
+            <section >
+                <Footer />
+            </section>
         </div>
     )
 

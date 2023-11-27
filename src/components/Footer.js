@@ -5,14 +5,14 @@ import React from "react"
 
 function Footer() {
     return (
-        <footer>
+        <div className="footer">
             <br/>
-            <section className="footer">
-                <a href="https://www.facebook.com/MorrisConstructioninc" >
+            <section className="FBLogoHolder">
+                <a href="https://www.facebook.com/MorrisConstructioninc" className="FBLogoHolder" >
                     <img className='fbLogo' alt="FB" src="/FB.png" />
                 </a>
             </section>
-        </footer>
+        </div>
     )
 }
 

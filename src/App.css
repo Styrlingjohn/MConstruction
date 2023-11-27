@@ -205,13 +205,25 @@ a {
 
 .footer {
     display: flex;
-    max-width: 100%;
+    align-items: center;
     justify-content: center;
+    background-color: #333;
+    height: 4.5rem;
+    width: 100%;
+    position: absolute;
+    margin-top: 2%;
 }
 
 .fbLogo {
-    height: 80px;
-    width: 120px;
+  height: 4%;
+  width: 4%;
+  display: flex;
+
+}
+.FBLogoHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .fbLogo:hover {
@@ -225,5 +237,9 @@ a {
 
     .boxOverlay:hover {
         font-size: larger;
+    }
+
+    .fbLogo {
+        width: 20%;
     }
 }
