@@ -41,10 +41,11 @@ function Finishes() {
 
       <section style={Style.Box} className='imageBox'>
 
-          <img src='./images/Lava Finish.jpg' style={Style.Images} className='images'></img>
-          <img src='./images/Lava Finish.jpg' style={Style.Images} className='images'></img>
-          <img src='./images/Lava Finish.jpg' style={Style.Images} className='images'></img>
-          <img src='./images/Lava Finish.jpg' style={Style.Images} className='images'></img>
+      <img src='./images/EphLn/18.jpg' style={Style.Images} className='images'></img>
+      <img src='./images/Portneuf/3.jpg' style={Style.Images} className='images'></img>
+      <img src='./images/Portneuf/5.jpg' style={Style.Images} className='images'></img>
+      <img src='./images/Portneuf/9.jpg' style={Style.Images} className='images'></img>
+      <img src='./images/DeweyLn/7.jpg' style={Style.Images} className='images'></img>
 
       </section>
     </div>

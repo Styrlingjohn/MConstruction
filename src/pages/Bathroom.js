@@ -43,8 +43,9 @@ function Bathroom() {
      
           <img src='./images/Portneuf/4.jpg' style={Style.Images} className='images'></img>
           <img src='./images/Portneuf/7.jpg' style={Style.Images} className='images'></img>
-          <img src='./images/bathroom.jpg' style={Style.Images} className='images'></img>
-          <img src='./images/bathroom.jpg' style={Style.Images} className='images'></img>
+          <img src='./images/EphLn/16.jpg' style={Style.Images} className='images'></img>
+          <img src='./images/EphLn/17.jpg' style={Style.Images} className='images'></img>
+          <img src='./images/DeweyLn/9.jpg' style={Style.Images} className='images'></img>
     
       </section>
 

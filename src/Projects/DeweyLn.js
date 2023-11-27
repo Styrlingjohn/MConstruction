@@ -47,8 +47,8 @@ function DeweyLn() {
                 <img src='./images/DeweyLn/5.jpg' style={Style.Images} className='images'></img>
                 <img src='./images/DeweyLn/6.jpg' style={Style.Images} className='images'></img>
                 <img src='./images/DeweyLn/7.jpg' style={Style.Images} className='images'></img>
-                <img src='./images/DeweyLn/3.jpg' style={Style.Images} className='images'></img>
                 <img src='./images/DeweyLn/9.jpg' style={Style.Images} className='images'></img>
+                <img src='./images/DeweyLn/3.jpg' style={Style.Images} className='images'></img>
                 <img src='./images/DeweyLn/4.jpg' style={Style.Images} className='images'></img>
                 
             </section>

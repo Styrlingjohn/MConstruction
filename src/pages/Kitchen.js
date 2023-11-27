@@ -24,7 +24,7 @@ const Style = {
     position: 'absolute',
     right: '40px',
     transform: 'translateY(30%)'
-}
+  }
 }
 
 
@@ -33,22 +33,19 @@ function Kitchen() {
   return (
     <>
       <section className='Gallery'>
-          Kitchen's
-          <a href='/'><button style={Style.button} >Home</button></a>
+        Kitchen's
+        <a href='/'><button style={Style.button} >Home</button></a>
       </section>
 
-      <br/>
+      <br />
 
       <section style={Style.Box} className='imageBox'>
 
-          <img src='./images/DeweyLn/4.jpg' style={Style.Images} className='images'></img>
-          <img src='./images/Kitchen.jpg' style={Style.Images} className='images'></img>
-          <img src='./images/Kitchen.jpg' style={Style.Images} className='images'></img>
-          <img src='./images/Kitchen.jpg' style={Style.Images} className='images'></img>
-          <img src='./images/Kitchen.jpg' style={Style.Images} className='images'></img>
-          <img src='./images/Kitchen.jpg' style={Style.Images} className='images'></img>
-
-
+        <img src='./images/DeweyLn/4.jpg' style={Style.Images} className='images'></img>
+        <img src='./images/EphLn/13.jpg' style={Style.Images} className='images'></img>
+        <img src='./images/EphLn/14.jpg' style={Style.Images} className='images'></img>
+        <img src='./images/EphLn/15.jpg' style={Style.Images} className='images'></img>
+        <img src='./images/Portneuf/1.jpg' style={Style.Images} className='images'></img>
       </section>
 
     </>
