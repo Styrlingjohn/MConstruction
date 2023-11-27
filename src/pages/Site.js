@@ -108,7 +108,17 @@ function Homepage() {
 
             <br />
 
+
             <div className="flexbox">
+
+                <section className='cont-box-1' style={Style.Container}>
+                    <section style={Style.Box} className="hatchH">
+                        <a href='/HatchH'> <div className="boxOverlay">
+                            Hatch House
+                        </div></a>
+                    </section>
+                </section>
+                
                 <section className='cont-box-1' style={Style.Container}>
                     <section style={Style.Box} className="SHStyle">
                         <a href='/sorensenhouse'> <div className="boxOverlay">
@@ -148,6 +158,7 @@ function Homepage() {
                         </div></a>
                     </section>
                 </section>
+
 
             </div>
 

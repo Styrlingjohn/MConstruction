@@ -43,7 +43,14 @@ function AFrame() {
 
                 <img src='./images/Aframe/3.jpg' style={Style.Images} className='images'></img>
                 <img src='./images/Aframe/1.jpg' style={Style.Images} className='images'></img>
+                <img src='./images/Aframe/4.jpg' style={Style.Images} className='images'></img>
+                <img src='./images/Aframe/5.jpg' style={Style.Images} className='images'></img>
+                <img src='./images/Aframe/6.jpg' style={Style.Images} className='images'></img>
+                <img src='./images/Aframe/7.jpg' style={Style.Images} className='images'></img>
+                <img src='./images/Aframe/8.jpg' style={Style.Images} className='images'></img>
                 <img src='./images/Aframe/2.jpg' style={Style.Images} className='images'></img>
+                <img src='./images/Aframe/9.jpg' style={Style.Images} className='images'></img>
+                <img src='./images/Aframe/10.jpg' style={Style.Images} className='images'></img>
 
             </section>
 

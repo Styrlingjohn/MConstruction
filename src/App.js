@@ -13,6 +13,7 @@ import AFrame from "./Projects/AFrame";
 import DeweyLn from "./Projects/DeweyLn";
 import Portneuf from "./Projects/Portnuef";
 import EphLn from "./Projects/EphLn";
+import HatchH from "./Projects/HatchHouse";
 
 
 
@@ -37,6 +38,7 @@ function App() {
                         <Route path="deweyLn" element={<DeweyLn />} />
                         <Route path="portneuf" element={<Portneuf />} />
                         <Route path="ephLn" element={<EphLn />} />
+                        <Route path="hatchH" element={<HatchH />} />
 
                     </Routes>
                 </BrowserRouter>
