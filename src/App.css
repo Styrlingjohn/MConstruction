@@ -269,6 +269,9 @@ a {
         width: 80%;
         margin-top: 10px;
     }
+    .fbLogo {
+        width: 40%;
+    }
     .boxOverlay:hover {
         font-size: larger;
     }
