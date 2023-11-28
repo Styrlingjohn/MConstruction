@@ -20,6 +20,10 @@ body {
     margin: auto;
     max-width: 100%;
 }
+a {
+    text-decoration: none;
+    color: white;
+}
 
 .Title {
     display: block;
@@ -97,9 +101,6 @@ body {
     justify-content: center;
 }
 
-a {
-    text-decoration: none;
-}
 
 
 .kitchenStyle {
@@ -205,41 +206,72 @@ a {
 
 .footer {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     background-color: black;
-    height: 4.5rem;
+    height: 10.5rem;
     width: 100%;
     position: absolute;
     margin-top: 2%;
 }
 
-.fbLogo {
-  height: 4%;
-  width: 4%;
-  display: flex;
-
+.contactInfo {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    border-left: 5px solid white;
+    padding-left: 1%;
 }
+
+.FBLogoS {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    border-left: 5px solid white;
+}
+
 .FBLogoHolder {
     display: flex;
+    height: fit-content;
+    width: fit-content;
     justify-content: center;
     align-items: center;
 }
 
+.fbLogo {
+    padding-inline: 20px;
+    border-radius: 10px;
+    width: 100%;
+    height: 60px;
+}
+
 .fbLogo:hover {
-    opacity: 0.9;
+    background-color: rgb(27, 26, 26);
 }
 
 @media screen and (max-width: 800px) {
     .footer {
         font-size: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        height: fit-content;
+        flex-direction: column;
+        align-items: center;
+    }
+    .FBLogoS {
+        border: none;
     }
 
     .boxOverlay:hover {
         font-size: larger;
     }
 
-    .fbLogo {
-        width: 20%;
+    .contactInfo {
+        border: none;
     }
 }
