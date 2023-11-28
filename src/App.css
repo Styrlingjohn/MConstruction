@@ -262,11 +262,13 @@ a {
         height: fit-content;
         flex-direction: column;
         align-items: center;
+        position: relative;
     }
     .FBLogoS {
         border: none;
+        width: 80%;
+        margin-top: 10px;
     }
-
     .boxOverlay:hover {
         font-size: larger;
     }
