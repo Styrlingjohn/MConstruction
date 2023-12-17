@@ -41,6 +41,9 @@ function HatchH() {
 
             <section style={Style.Box} className='imageBox'>
          
+                <img src='./images/HatchHouse/12.jpg' style={Style.Images} className='images'></img>
+                <img src='./images/HatchHouse/11.jpg' style={Style.Images} className='images'></img>
+                <img src='./images/HatchHouse/10.jpg' style={Style.Images} className='images'></img>
                 <img src='./images/HatchHouse/9.jpg' style={Style.Images} className='images'></img>
                 <img src='./images/HatchHouse/8.jpg' style={Style.Images} className='images'></img>
                 <img src='./images/HatchHouse/1.jpg' style={Style.Images} className='images'></img>

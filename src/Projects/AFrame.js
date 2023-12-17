@@ -51,6 +51,9 @@ function AFrame() {
                 <img src='./images/Aframe/2.jpg' style={Style.Images} className='images'></img>
                 <img src='./images/Aframe/9.jpg' style={Style.Images} className='images'></img>
                 <img src='./images/Aframe/10.jpg' style={Style.Images} className='images'></img>
+                <img src='./images/Aframe/11.jpg' style={Style.Images} className='images'></img>
+                <img src='./images/Aframe/12.jpg' style={Style.Images} className='images'></img>
+                <img src='./images/Aframe/13.jpg' style={Style.Images} className='images'></img>
 
             </section>
 

@@ -48,6 +48,17 @@ function SHHouse() {
         <img src='./images/SornsenHouse/11.jpg' style={Style.Images} className='images'></img>
         <img src='./images/SornsenHouse/1.jpg' style={Style.Images} className='images'></img>
         <img src='./images/SornsenHouse/2.jpg' style={Style.Images} className='images'></img>
+        <img src='./images/SornsenHouse/12.jpg' style={Style.Images} className='images'></img>
+        <img src='./images/SornsenHouse/13.jpg' style={Style.Images} className='images'></img>
+        <img src='./images/SornsenHouse/14.jpg' style={Style.Images} className='images'></img>
+        <img src='./images/SornsenHouse/15.jpg' style={Style.Images} className='images'></img>
+        <img src='./images/SornsenHouse/16.jpg' style={Style.Images} className='images'></img>
+        <img src='./images/SornsenHouse/17.jpg' style={Style.Images} className='images'></img>
+        <img src='./images/SornsenHouse/18.jpg' style={Style.Images} className='images'></img>
+        <img src='./images/SornsenHouse/19.jpg' style={Style.Images} className='images'></img>
+        <img src='./images/SornsenHouse/20.jpg' style={Style.Images} className='images'></img>
+        <img src='./images/SornsenHouse/21.jpg' style={Style.Images} className='images'></img>
+        <img src='./images/SornsenHouse/22.jpg' style={Style.Images} className='images'></img>
         
       </section>
 
