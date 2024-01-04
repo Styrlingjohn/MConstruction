@@ -59,6 +59,9 @@ function SHHouse() {
         <img src='./images/SornsenHouse/20.jpg' style={Style.Images} className='images'></img>
         <img src='./images/SornsenHouse/21.jpg' style={Style.Images} className='images'></img>
         <img src='./images/SornsenHouse/22.jpg' style={Style.Images} className='images'></img>
+        <img src='./images/SornsenHouse/23.jpg' style={Style.Images} className='images'></img>
+        <img src='./images/SornsenHouse/24.jpg' style={Style.Images} className='images'></img>
+        <img src='./images/SornsenHouse/25.jpg' style={Style.Images} className='images'></img>
         
       </section>
 

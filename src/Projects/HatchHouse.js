@@ -40,7 +40,10 @@ function HatchH() {
             <br />
 
             <section style={Style.Box} className='imageBox'>
-         
+
+                <img src='./images/HatchHouse/13.jpg' style={Style.Images} className='images'></img>
+                <img src='./images/HatchHouse/14.jpg' style={Style.Images} className='images'></img>
+                <img src='./images/HatchHouse/15.jpg' style={Style.Images} className='images'></img>
                 <img src='./images/HatchHouse/12.jpg' style={Style.Images} className='images'></img>
                 <img src='./images/HatchHouse/11.jpg' style={Style.Images} className='images'></img>
                 <img src='./images/HatchHouse/10.jpg' style={Style.Images} className='images'></img>
@@ -51,7 +54,7 @@ function HatchH() {
                 <img src='./images/HatchHouse/2.jpg' style={Style.Images} className='images'></img>
                 <img src='./images/HatchHouse/6.jpg' style={Style.Images} className='images'></img>
                 <img src='./images/HatchHouse/3.jpg' style={Style.Images} className='images'></img>
-                
+
             </section>
 
         </>
