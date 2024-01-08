@@ -38,12 +38,12 @@ function Homepage() {
 
             <br />
 
-            <div className="flexbox">
-                <section >
-                    Construction is a general term meaning the art and science to form objects, systems, or organizations, and comes from Latin construction (from com- "together" and struere "to pile up") and Old French construction.
-                    To construct is the verb: the act of building, and the noun is construction: how something is built, the nature of its structure.
-                    In its most widely used context, construction covers the processes involved in delivering buildings, infrastructure, industrial facilities, and associated activities through to the end of their life. It typically starts with planning,
-                    financing, and design, and continues until the asset is built and ready for use; construction also covers repairs and maintenance work, any works to expand, extend and improve the asset, and its eventual demolition, dismantling or decommissioning.
+            <div className="flexbox" >
+                <section className="about" >
+                Established in the year 2000, our company has been a stalwart in delivering exceptional services to the community. With a firm commitment to quality, communication, experience, and integrity, 
+                we have become a trusted name in South East Idaho. Our journey has been defined by a dedication to providing top-notch services that meet the highest standards. From our inception, we have strived to build lasting relationships with our clients, 
+                ensuring open and transparent communication at every step. IN recent years we have diverted attention to multi family homes, adding that to a list of custom homes and remodels Morris Construction is the construction
+                company to build what your mind can imagine. With a focus on excellence, we continue to serve and make a positive impact in the South East Idaho region.
                 </section>
             </div>
 

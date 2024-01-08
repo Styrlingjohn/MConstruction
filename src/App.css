@@ -62,6 +62,18 @@ a {
     color: black;
 }
 
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.site-H {
+justify-content: center;
+align-items: center;
+}
+
 @media screen and (max-width:800px) {
     .flexbox {
         display: flex;
